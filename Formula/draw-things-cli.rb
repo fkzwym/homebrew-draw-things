@@ -9,9 +9,4 @@ class DrawThingsCli < Formula
     bin.install "gRPCServerCLI-macOS" => "draw-things-gRPCServerCLI"
     chmod 0755, bin/"draw-things-gRPCServerCLI"
   end
-
-  def post_install
-    system "xattr", "-d", "com.apple.quarantine", "#{bin}/draw-things-gRPCServerCLI"
-  rescue
-  end
 end
