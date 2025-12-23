@@ -1,4 +1,4 @@
-class DrawthingsCli < Formula
+class DrawThingsCli < Formula
   desc "Draw Things gRPC Server CLI"
   homepage "https://github.com/drawthingsai/draw-things-community"
   version "v1.20251219.0"
