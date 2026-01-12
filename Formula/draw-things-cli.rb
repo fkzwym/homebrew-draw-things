@@ -1,9 +1,9 @@
 class DrawThingsCli < Formula
   desc "Draw Things gRPC Server CLI"
   homepage "https://github.com/drawthingsai/draw-things-community"
-  version "v1.20251219.0"
-  url "https://github.com/drawthingsai/draw-things-community/releases/download/v1.20251219.0/gRPCServerCLI-macOS"
-  sha256 "00e3c7f104d1fe8908b94dc68f9d078ab0467703cf431f10f9a5d903f644f2eb"
+  version "v1.20260105.0"
+  url "https://github.com/drawthingsai/draw-things-community/releases/download/v1.20260105.0/gRPCServerCLI-macOS"
+  sha256 "bceb60f5c70f9fa2d08a2026f982cad9197886c77606018176b3f43caafee872"
 
   def install
     bin.install "gRPCServerCLI-macOS" => "draw-things-gRPCServerCLI"
